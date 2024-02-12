@@ -109,4 +109,27 @@
             </div>
         </div>
     </div>
+    <div class="container-fluid">
+        <div class="row background-section">
+            <div class="col-6 d-flex justify-content-start align-items-center ">
+                <div class="margin-btn">
+                    <button>
+                        SIGN-UP NOW!
+                    </button>
+                </div>
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+                <div class="d-flex flex-row px-5">
+                    <span class="me-3">FOLLOW US</span>
+                    <div class="px-2">
+                        <img src="{{ Vite::asset('resources/images/footer-facebook.png') }}">
+                        <img src="{{ Vite::asset('resources/images/footer-twitter.png') }}">
+                        <img src="{{ Vite::asset('resources/images/footer-youtube.png') }}">
+                        <img src="{{ Vite::asset('resources/images/footer-pinterest.png') }}">
+                        <img src="{{ Vite::asset('resources/images/footer-periscope.png') }}">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
