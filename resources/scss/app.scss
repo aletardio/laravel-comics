@@ -39,3 +39,57 @@ header {
     }
 
 }
+
+footer {
+    height: 420px;
+    background-image: url(../images/footer-bg.jpg);
+    background-size: cover;
+}
+
+.col-6.d-flex.flex-wrap {
+    padding-top: 20px;
+
+    li {
+        font-size: 10px;
+
+        a{
+            color: grey;
+
+            &:hover{
+                color: white;
+            }
+        }
+    }
+
+    }
+
+    .logo-footer {
+        width: 55%;
+    }
+
+    .background-section {
+        background-color: #303030;
+        height: 100px;
+    }
+
+    .margin-btn {
+        padding: 0 215px;
+
+        button {
+            padding: 10px;
+            color: #fff;
+            background-color: transparent;
+            border: 3px solid #0382F9;
+
+            &:hover{
+                background-color: #0382F9;
+                transition: background-color 0.700s;
+            }
+        }
+    }
+
+    span {
+        padding-top: 5px;
+        color: #0382F9;
+        font-weight: 700;
+    }
