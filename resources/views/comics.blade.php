@@ -60,6 +60,9 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="py-2 lh-base">
+                                    {{ $comic['description'] }}
+                                </div>
                             @endif
                         @endforeach
                     </div>
