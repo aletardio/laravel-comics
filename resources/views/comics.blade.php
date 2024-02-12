@@ -63,6 +63,14 @@
                             @endif
                         @endforeach
                     </div>
+                    <div class="col-5 py-4 d-flex flex-column justify-content-center">
+                        <div class="text-uppercase text-end fw-bold txt-adv">
+                            Advertisement
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <img class="adv" src="{{ Vite::asset('resources/images/adv.jpg') }}" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
