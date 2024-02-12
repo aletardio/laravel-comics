@@ -203,3 +203,36 @@ footer {
         color: #0382F9;
         font-weight: 700;
     }
+
+    .comics-card{
+        position: absolute;
+        top: 320px;
+        left: 280px;
+        width: 200px;
+        margin: 15px 0;
+        padding: 0 10px;
+        overflow: hidden;
+
+        .img-card {
+        width: 180px;
+        height: 250px;
+        }
+    }
+
+    .line-blue {
+        background-color: #0382F9;
+        height: 60px;
+    }
+
+    .content {
+        background-color: #fff;
+        height: 400px;
+    }
+
+    .availability {
+        background-color: #55BA59;
+
+        .text-green {
+            color: #ADEF7D;
+        }
+    }

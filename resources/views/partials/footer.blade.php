@@ -122,11 +122,11 @@
                 <div class="d-flex flex-row px-5">
                     <span class="me-3">FOLLOW US</span>
                     <div class="px-2">
-                        <img src="{{ Vite::asset('resources/images/footer-facebook.png') }}">
-                        <img src="{{ Vite::asset('resources/images/footer-twitter.png') }}">
-                        <img src="{{ Vite::asset('resources/images/footer-youtube.png') }}">
-                        <img src="{{ Vite::asset('resources/images/footer-pinterest.png') }}">
-                        <img src="{{ Vite::asset('resources/images/footer-periscope.png') }}">
+                        <img class="px-1" src="{{ Vite::asset('resources/images/footer-facebook.png') }}">
+                        <img class="px-1" src="{{ Vite::asset('resources/images/footer-twitter.png') }}">
+                        <img class="px-1" src="{{ Vite::asset('resources/images/footer-youtube.png') }}">
+                        <img class="px-1" src="{{ Vite::asset('resources/images/footer-pinterest.png') }}">
+                        <img class="px-1" src="{{ Vite::asset('resources/images/footer-periscope.png') }}">
                     </div>
                 </div>
             </div>
