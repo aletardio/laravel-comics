@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-4">
-                <a href="/">
+                <a href="{{ route('homepage') }}">
                     <img src="{{ Vite::asset('resources/images/dc-logo.png') }}" alt="Dc">
                 </a>
             </div>
