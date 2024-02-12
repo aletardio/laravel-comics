@@ -21,15 +21,15 @@
         <div class="jumbotron">
             <img class="jumbotron-image" src="{{ Vite::asset('resources/images/jumbotron.jpg') }}" alt="">
         </div>
-        <div class="comics-card">
+        <div class="comic-card">
             @foreach ($comics as $key => $comic)
                 @if ($key === 2)
-                    <img class="img-card" src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                    <img class="card" src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
                 @endif
             @endforeach
         </div>
         <div class="line-blue"></div>
-        <div class="container-fluid content">
+        <div class="container-fluid contents">
             <div class="container">
                 <div class="row">
                     <div class="col-7">
