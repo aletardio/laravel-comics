@@ -58,7 +58,7 @@ main {
 .jumbotron-heading{
     font-weight: 700;
     position: absolute;
-    bottom: 95px;
+    bottom: 425px;
     left: 19%;
     color: white;
     text-transform: uppercase;
@@ -129,8 +129,26 @@ button {
     }
 }
 
+.content {
+    height: 120px;
+    background-color: #0382F9;
+    .text-section {
+        cursor: pointer;
+        padding: 20px 10px;
+        font-size: 12px;
 
-
+    }
+    img.icons {
+        cursor: pointer;
+        margin: 0 10px;
+        height: 52px;
+    }
+    img.icons_visa{
+        width: 50px;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+}
 
 
 footer {
@@ -162,7 +180,6 @@ footer {
 
     .background-section {
         background-color: #303030;
-        height: 100px;
     }
 
     .margin-btn {

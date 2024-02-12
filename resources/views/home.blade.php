@@ -39,6 +39,29 @@
                 Load More
             </button>
         </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 content d-flex justify-content-center align-items-center">
+                    <div class="d-flex flex-row px-5">
+                        <img src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png') }}"
+                            class="icons my-1" />
+                        <div class="text-uppercase text-section text-light">digital comics</div>
+                        <img src="{{ Vite::asset('resources/images/buy-comics-merchandise.png') }}"
+                            class="icons my-1" />
+                        <div class="text-uppercase text-section text-light">dc merchandise</div>
+                        <img src="{{ Vite::asset('resources/images/buy-comics-subscriptions.png') }}"
+                            class="icons my-1" />
+                        <div class="text-uppercase text-section text-light">subscription</div>
+                        <img src="{{ Vite::asset('resources/images/buy-comics-shop-locator.png') }}"
+                            class="icons my-1" />
+                        <div class="text-uppercase text-section text-light">comic shop locator</div>
+                        <img src="{{ Vite::asset('resources/images/buy-dc-power-visa.svg') }}"
+                            class="icons_visa my-1" />
+                        <div class="text-uppercase text-section text-light">dc power visa</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     @include('partials.footer')
 </body>
