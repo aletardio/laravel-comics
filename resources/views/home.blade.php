@@ -9,12 +9,14 @@
     </div>
     <div class="boxes cont-comics">
         @foreach ($comics as $comic)
-            <div class="comics-card">
-                <div class="img-card">
-                    <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+            <a href="{{ route('detail-comic', ['param' => $comic['id']]) }}">
+                <div class="comics-card">
+                    <div class="img-card">
+                        <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                    </div>
+                    <div class="text-comics text-light"> {{ $comic['series'] }}</div>
                 </div>
-                <div class="text-comics text-light"> {{ $comic['series'] }}</div>
-            </div>
+            </a>
         @endforeach
     </div>
     <div class="d-flex justify-content-center">
