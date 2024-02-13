@@ -12,8 +12,8 @@
                         <a href="#">Characters</a>
                     </li>
                     <li>
-                        <a class="{{ Route::currentRouteName() === 'comics' ? 'active' : '' }}"
-                            href="{{ route('comics') }}">Comics</a>
+                        <a class="{{ Route::currentRouteName() === 'detail-comic' ? 'active' : '' }}"
+                            href="{{ route('detail-comic', ['param' => $comic['id']]) }}">Comics</a>
                     </li>
                     <li>
                         <a href="#">Movies</a>
