@@ -9,7 +9,8 @@
     </div>
     <div class="boxes cont-comics">
         @foreach ($comics as $comic)
-            <a href="{{ route('detail-comic', ['param' => $comic['id']]) }}">
+            <a class="link-offset-2 link-underline link-underline-opacity-0"
+                href="{{ route('detail-comic', ['param' => $comic['id']]) }}">
                 <div class="comics-card">
                     <div class="img-card">
                         <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
