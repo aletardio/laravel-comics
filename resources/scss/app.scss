@@ -120,9 +120,9 @@ button {
         color: #fff;
         background-color: #0382F9;
         border: 1px solid #0382F9;
+        transition: all 0.5s ease;
 
     &:hover {
-        transition: all 0.3s ease-in-out;
         color: #0382F9;
         background-color: #fff;
         border: 1px solid #fff;
@@ -190,10 +190,10 @@ footer {
             color: #fff;
             background-color: transparent;
             border: 3px solid #0382F9;
+            transition: all 0.650s ease;
 
             &:hover{
                 background-color: #0382F9;
-                transition: background-color 0.700s;
             }
         }
     }

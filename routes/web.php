@@ -18,11 +18,6 @@ Route::get('/', function () {
     return view('home', compact('comics'));
 })->name('homepage');
 
-Route::get('/comics', function () {
-    $comics = config("comics");
-    return view('comics', compact('comics'));
-})->name('comics');
-
 Route::get('/comics/{param}', function ($id) {
     $comics = config('comics');
 
